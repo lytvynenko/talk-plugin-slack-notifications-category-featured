@@ -16,5 +16,5 @@ When a comment is featured (via the
 plugin), plugin will post message to slack channel.
 Slack integration is configured via environment variables:
 
-- TALK_SLACK_NOTIFICATION_WEBHOOK_URL -
-- TALK_SLACK_NOTIFICATION_WEBHOOK_TIMEOUT
+- TALK_SLACK_NOTIFICATION_WEBHOOK_URL - Webhook URL for your Slack integration
+- TALK_SLACK_NOTIFICATION_WEBHOOK_TIMEOUT - connection timeout (in ms), default value `5000`
