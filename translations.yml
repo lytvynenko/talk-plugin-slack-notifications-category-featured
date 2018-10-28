@@ -1,0 +1,6 @@
+en:
+  talk-plugin-slack-notifications:
+    categories:
+      featured:
+        text: "{0}\n{1}"
+        footer: "Featured comment by {0}"
